@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 import string
 for letter in string.ascii_lowercase:
-    print("{:c}".format(letter), end='')
+    print("{:s}".format(letter), end='')
