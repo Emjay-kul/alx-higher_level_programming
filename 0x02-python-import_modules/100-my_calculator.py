@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    from calculator_1 import a, b, add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
 
     op = ['+', '-', '*', '/']
 
