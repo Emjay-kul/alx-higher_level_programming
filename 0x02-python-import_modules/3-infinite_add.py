@@ -6,3 +6,5 @@ if __name__ == "__main__":
 
     for i in range(1, len(sys.argv)):
         count += int(sys.argv[i])
+
+    print(count)
