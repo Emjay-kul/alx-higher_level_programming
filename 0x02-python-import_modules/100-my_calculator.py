@@ -16,9 +16,13 @@ if __name__ == "__main__":
             print("1")
         elif sys.argv[2] == '+':
             print("{} + {} = {}".format(int(a), int(b), add(a, b)))
+            print("0")
         elif sys.argv[2] == '-':
             print("{} - {} = {}".format(int(a), int(b), sub(a, b)))
+            print("0")
         elif sys.argv[2] == '*':
             print("{} * {} = {}".format(int(a), int(b), mul(a, b)))
+            print("0")
         elif sys.argv[2] == '/':
             print("{} / {} = {}".format(int(a), int(b), div(a, b)))
+            print("0")
